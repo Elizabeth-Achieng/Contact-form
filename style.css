@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.contactform
+{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+
+.title
+{
+   text-align: center; 
+   padding-bottom: 20px;
+
+}
+
+.submitbutton, .contactinput
+     {
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+
+}
